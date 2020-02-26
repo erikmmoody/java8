@@ -22,10 +22,6 @@ public class App
         appList.add(atwo);
         appList.add(athree);
 
-        Apple.prettyPrintApple(appList, new PrettyPrinter() {
-            public String prettyPrint(Apple apple) {
-                return "I am a " + apple.getColor().toString() + " apple";
-            }
-        });
+        Apple.prettyPrintApple(appList, apple -> "I am a " + apple.getColor().toString() + " apple");
     }
 }

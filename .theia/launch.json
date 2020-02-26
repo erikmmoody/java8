@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - UnsafeCacher",
+            "request": "launch",
+            "mainClass": "com.erik.jeight.thread.UnsafeCacher",
+            "projectName": "jeight"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "com.erik.jeight.apple.App",
